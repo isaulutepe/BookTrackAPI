@@ -4,7 +4,10 @@
 BookTrack, kitap kayıtlarını yönetmek için Node.js ve Express.js kullanılarak geliştirilmiş bir REST API projesidir. Uygulama; kitap ekleme, listeleme, detay görüntüleme, güncelleme ve silme işlemlerini destekler. 
 
 ## 📄 Proje Raporu
-[Node.js ile REST API Projesi – PDF Raporu](src/Nodejs-ile-REST-API-Projesi.pdf)
+
+Projenin detaylı analizine ve mimarisine aşağıdaki bağlantıdan ulaşabilirsiniz:
+
+[📥 Node.js ile REST API Projesi – PDF Raporu](Nodejs-ile-REST-API-Projesi.pdf)
 
 ## 🚀 Özellikler
 
