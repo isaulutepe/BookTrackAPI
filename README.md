@@ -115,10 +115,12 @@ Bu proje; Node.js ve Express.js kullanarak REST API geliştirme, HTTP metotları
 
 > **Not:** Proje başlangıcında kullandığım kurulum komutları aşağıdadır:
 
+```bash
 npm init -y
 npm install express
 npm pkg set type="module"
 npm pkg set scripts.start="node src/server.js"
+```
 
 ## 🧪 API Testleri ve Ekran Görüntüleri
 
