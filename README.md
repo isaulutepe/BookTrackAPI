@@ -156,38 +156,41 @@ BookTrack API endpoint'leri Postman kullanılarak test edilmiştir. Testler kaps
 
 Sistemde kayıtlı kitapları getirir.
 
-![Get All Books](../docs/images/get-books.png)
+![Get All Books](src/docs/images/get-books.png)
 
 ### Kitap Detayını Görüntüleme
 
 Belirtilen ID'ye ait kitabın bilgilerini getirir.
 
-![Get Book By ID](../docs/images/get-book-by-id.png)
+![Get Book By ID](src/docs/images/get-book-by-id.png)
 
 ### Yeni Kitap Oluşturma
 
 Gönderilen JSON verileriyle yeni bir kitap kaydı oluşturur.
 
-![Create Book](docs/images/post-book.png)
+![Create Book](src/docs/images/post-book.png)
 
 ### Kitap Bilgilerini Güncelleme
 
 Belirtilen kitabın yalnızca gönderilen alanlarını günceller.
 
-![Update Book](docs/images/patch-book.png)
+![Update Book](src/docs/images/patch-book.png)
 
 ### Kitap Silme
 
 Belirtilen kitabı kayıt listesinden kaldırır.
 
-![Delete Book](docs/images/delete-book.png)
+![Delete Book](src/docs/images/delete-book.png)
 
 ### Hata Yönetimi
 
 Geçersiz veya bulunamayan kaynaklara yönelik isteklerde uygun hata yanıtlarının döndürülmesini gösterir.
 
-![Error Handling](docs/images/error-handling.png)
+![Error Handling](src/docs/images/error-handling.png)
 
 ### Ekstra Filtreleme Özellikleri
 Kategoriye göre, yazara göre ya da her ikisine göre filtreleme yapılabilir.
+![Kategoriye göre filtreleme](src/docs/images/kategoriye-gore-filtreleme.png)
+![Yazara göre fitreleme](src/docs/images/yazara-gore-filtreleme.png)
+![Hem yazar hem kategoriye göre filtreleme](src/docs/images/yazar+kategori-göre-filtreleme.png)
 
