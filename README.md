@@ -104,36 +104,6 @@ BookTrack/
 | PATCH       | `/api/books/:bookId`                | Mevcut kitabın belirli alanlarını günceller. |
 | DELETE      | `/api/books/:bookId`                | Belirtilen kitabı siler.                     |
 
-### Örnek İstek
-
-**Yeni kitap oluşturma**
-
-`POST /api/books`
-
-İstek gövdesi:
-
-```json
-{
-  "title": "Kürk Mantolu Madonna",
-  "author": "Sabahattin Ali",
-  "category": "Roman",
-  "publicationYear": 1943
-}
-```
-
-Başarılı bir oluşturma işlemi `201 Created` yanıtı döndürür.
-
-## 🧪 API Testleri
-
-API endpoint'leri Postman aracılığıyla test edilebilir.
-
-Örnek istek:
-
-```text
-GET http://localhost:3008/api/books
-```
-
-Testlerde başarılı işlemlerin yanı sıra geçersiz ID, bulunamayan kitap ve hatalı veri gönderimi gibi durumlar da kontrol edilebilir.
 
 ## 💾 Veri Yönetimi
 
@@ -141,8 +111,10 @@ Kitap kayıtları uygulama belleğinde bir JavaScript dizisi içerisinde tutulma
 
 ## 📌 Projenin Amacı
 
-Bu proje, Node.js ve Express.js ile REST API geliştirme, HTTP metotlarını kullanma, CRUD işlemlerini uygulama, kodu katmanlara ayırma, veri doğrulama ve middleware tabanlı hata yönetimi konularında pratik kazanmak amacıyla geliştirilmiştir.
-Not: Proje başlangıcında kullandığım komutlar :
+Bu proje; Node.js ve Express.js kullanarak REST API geliştirme, HTTP metotlarını kullanma, CRUD (Create, Read, Update, Delete) işlemlerini uygulama, kodu katmanlara ayırma, veri doğrulama ve middleware tabanlı hata yönetimi konularında pratik kazanmak amacıyla geliştirilmiştir.
+
+> **Not:** Proje başlangıcında kullandığım kurulum komutları aşağıdadır:
+
 npm init -y
 npm install express
 npm pkg set type="module"
