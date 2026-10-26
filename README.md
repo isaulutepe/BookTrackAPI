@@ -190,7 +190,10 @@ Geçersiz veya bulunamayan kaynaklara yönelik isteklerde uygun hata yanıtları
 
 ### Ekstra Filtreleme Özellikleri
 Kategoriye göre, yazara göre ya da her ikisine göre filtreleme yapılabilir.
+
 ![Kategoriye göre filtreleme](src/docs/images/kategoriye-gore-filtreleme.png)
-![Yazara göre fitreleme](src/docs/images/yazara-gore-filtreleme.png)
+
+![Yazara göre filtreleme](src/docs/images/yazara-gore-filtreleme.png)
+
 ![Hem yazar hem kategoriye göre filtreleme](src/docs/images/yazar+kategori-göre-filtreleme.png)
 
