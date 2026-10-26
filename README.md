@@ -156,13 +156,13 @@ BookTrack API endpoint'leri Postman kullanılarak test edilmiştir. Testler kaps
 
 Sistemde kayıtlı kitapları getirir.
 
-![Get All Books](docs/images/get-books.png)
+![Get All Books](../docs/images/get-books.png)
 
 ### Kitap Detayını Görüntüleme
 
 Belirtilen ID'ye ait kitabın bilgilerini getirir.
 
-![Get Book By ID](docs/images/get-book-by-id.png)
+![Get Book By ID](../docs/images/get-book-by-id.png)
 
 ### Yeni Kitap Oluşturma
 
